@@ -1,0 +1,2 @@
+[workspace]
+members = ["ignetdiag-0.1.0", "ignetdiag_cli", "ignetdiag_demo", "ignetdiag_test"]

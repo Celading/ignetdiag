@@ -1,0 +1,12 @@
+[package]
+  cjc-version = "1.1.0"
+  name = "ignetdiag_cli"
+  version = "0.1.0"
+  output-type = "executable"
+  src-dir = "src"
+  compile-option = "-Woff unused"
+  license = "Apache-2.0"
+  description = "igNetDiag CLI entry"
+
+[dependencies]
+  ignetdiag = { path = "../ignetdiag-0.1.0" }
